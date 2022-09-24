@@ -34,4 +34,4 @@ def page_not_found(e): #esta 'e' es el evento de flask
     #return render_template('404.html'), 404
 
 if __name__=="__main__":   # Asegúrate de que este archivo se esté ejecutando directamente y no desde un módulo diferente    
-    app.run(debug=True)    # Ejecuta la aplicación en modo de depuración
+    app.run(debug=True)    # Ejecuta la aplicación en modo de depuración 
